@@ -1,0 +1,145 @@
+$default-font: 'Roboto', sans-serif;
+$second-font: 'Montserrat', sans-serif;
+
+body {
+  font-family: $default-font;
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.25;
+  font-family: $second-font;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.25;
+  font-family: $second-font;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: $second-font;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: $second-font;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: $second-font;
+  font-weight: 400;
+}
+
+
+.logo {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: $second-font;
+}
+
+.header-links {
+  ul {
+    li {
+      a {
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 1.66;
+        font-family: $second-font;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.yellow-btn, .transparent-btn, .white-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.66;
+  font-family: $second-font;
+  font-weight: 600;
+
+  .mdi {
+    font-size: 14px;
+  }
+}
+
+.tabs-buttons {
+  ul {
+    li {
+      a {
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 1.66;
+        font-family: $second-font;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.about-description {
+  font-weight: 300;
+}
+
+.about-me-info {
+
+  .span-title {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: $second-font;
+    text-transform: uppercase;
+
+    & + span {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 300;
+    }
+  }
+}
+
+.form-wrapper {
+
+  .form-group {
+
+    label, .help-block, .help-block-success {
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 600;
+      font-family: $second-font;
+      text-transform: uppercase;
+    }
+  }
+
+  @at-root
+  .site-input {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+}
+
+.copyright, .resume-date {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.copyright {
+  font-weight: 300;
+}
+
+.contact-text, .resume-info-desc, .resume-date {
+  font-weight: 300;
+}

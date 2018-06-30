@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Chris - HTML Template
+Version:	1.0
+Author:	    Andrey Sokoltsov
+Profile:	http://themeforest.net/user/andreysokoltsov
+-------------------------------------------------------------------*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700');
+@import url("materialdesignicons.min.css");
+@import url("icofont.css");
+
+/* PLUGIN CSS */
+@import url("../assets/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css");
+
+/* MAIN CSS */
+@import url("bootstrap.min.css");
+@import url("typography.css");
+@import url("theme.css");
+@import url("responsive.css");
+@import url('color.css');
+@import url("custom.css");

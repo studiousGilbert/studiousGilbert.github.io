@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Ton</title>
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+
+</head>
+<body>
+
+<!-- Loader -->
+<div id="page-preloader"><span class="spinner"></span></div>
+<!-- Loader end -->
+
+<!-- Header -->
+<header class="header header-home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-8">
+                <a href="index.html" class="logo">
+                    <div class="header-avatar">
+                        <img src="media/first-screen/avatar.jpg" alt="">
+                    </div>
+                    <span class="point">Simon Ton</span>
+                </a>
+            </div>
+            <div class="col-md-9 text-right hidden-sm hidden-xs">
+                <div class="main-menu header-links">
+                    <ul>
+                        <li><a href="#play-music">My Music</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#about-me-modal">About Me</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact me</a></li>
+                    </ul>
+                </div>
+                <div class="change-lng header-links">
+                    <ul>
+                        <li><a href="#">ENG</a></li>
+                        <li><a href="#">ES</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-4 hidden-lg hidden-md">
+                <div class="mobile-btn">
+                    <span class="mdi mdi-menu"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header -->
+
+<!-- Mobile menu -->
+<div class="mob-menu-wrapper hidden-md hidden-lg">
+    <div class="close-mob-menu">
+        <span class="mdi mdi-window-close"></span>
+    </div>
+    <div class="mobile-box-wrap">
+        <div class="mobile-box-flex">
+            <div class="mobile-menu header-links">
+                <ul>
+                    <li><a href="#play-music">My Music</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#about-me-modal">About Me</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="change-lng header-links">
+                <ul>
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">ES</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Mobile menu -->
+
+<div class="wrapper">
+
+    <div class="first-screen">
+
+        <div class="main-bg hidden-sm hidden-xs"></div>
+
+        <div class="container full-height">
+            <div class="row full-height">
+                <div class="col-lg-6 col-md-8 col-xs-12 full-height">
+                    <div class="first-screen-box">
+                        <div class="main-avatar hidden-lg hidden-md">
+                            <img src="media/first-screen/main-avatar.jpg" alt="">
+                        </div>
+                        <div class="about-me">
+                            <div class="about-title">
+                                <h3>I’m Simon Ton Crown. I play jazz and country music</h3>
+                            </div>
+                            <div class="opacity-box about-description">
+                                <p>I am a jazz musician located in Hartford, Connecticut. I currently work as
+                                    a musician on parties, weddings, bar mitzvahs, trade shows and more. I am
+                                    looking to take on more work and to help you improve your event.</p>
+                            </div>
+                        </div>
+                        <div class="first-screen-buttons">
+                            <a href="#play-music" class="yellow-btn"><span class="mdi mdi-play"></span>Play my music</a>
+                            <a target="_blank" href="https://audiojungle.net/user/davidpinks" class="transparent-btn"><span class="mdi mdi-cart"></span>Buy my music</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-content" id="play-music">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h3>Music tracks & clips</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="tabs-buttons">
+                        <ul class="">
+                            <li class="active">
+                                <a href="#soundcloud" data-toggle="tab">
+                                    <span><span class="mdi mdi-soundcloud"></span>Soundcloud</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#envato" data-toggle="tab">
+                                    <span><span class="icofont icofont-social-envato"></span>Envato</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#youtube" data-toggle="tab">
+                                    <span><span class="mdi mdi-youtube-play"></span>Youtube</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#vimeo" data-toggle="tab">
+                                    <span><span class="mdi mdi-vimeo"></span>VIMEO</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div class="tab-pane active fade in" id="soundcloud">
+                            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/11180955&amp;color=ffc107&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="envato">
+                            <div id="player_div"></div>
+                        </div>
+                        <div class="tab-pane fade" id="youtube">
+                            <div class="video-box">
+                                <iframe src="https://www.youtube.com/embed/Wzah8RZYfiA" allowfullscreen></iframe>
+                            </div>
+                            <div class="owl-carousel">
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://www.youtube.com/embed/916mqYWfW4c"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://www.youtube.com/embed/3k6_aysC1K8"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://www.youtube.com/embed/DHcAH4Je07Q"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://www.youtube.com/embed/Kz-FyaRpuEc"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://www.youtube.com/embed/tSIut_KIV30"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://www.youtube.com/embed/eVv0uKX_yaw"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="vimeo">
+                            <div class="video-box">
+                                <iframe src="https://player.vimeo.com/video/90617432?color=ffc107&title=0&byline=0&portrait=0" allowfullscreen></iframe>
+                            </div>
+                            <div class="owl-carousel">
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/225801958"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/36303401"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/61741058"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/101516323"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/10677082"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/5625940"></a>
+                                </div>
+                                <div class="slider-item">
+                                    <a class="owl-video" href="https://vimeo.com/10441591"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h3>Contact</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="opacity-box contact-text">
+                        <p>Are you organising event or building media project? I would love to help make it happen!
+                            Drop me a letter and start work right now! Just do it. I will not spam you on e-mail
+                            or something else.</p>
+                    </div>
+                    <div class="about-me-info">
+                        <p class="info-row">
+                            <span class="span-title">Phone</span>
+                            <span class="opacity-box">
+                                <a href="tel:+1-203-324-5400">+1-203-324-5400</a>
+                            </span>
+                        </p>
+                        <p class="info-row">
+                            <span class="span-title">Email</span>
+                            <span class="opacity-box">
+                                <a href="mailto:Simon Toncrown92@gmail.com">Simon Toncrown92@gmail.com</a>
+                            </span>
+                        </p>
+                        <p class="info-row">
+                            <span class="span-title">Address</span>
+                            <span class="opacity-box">
+                                <a class="map-link" href="open-google-map">3113 Lochmere Avenue, Weymouth, MA, United States</a>
+                            </span>
+                        </p>
+                        <p class="info-row">
+                            <span class="span-title">Social</span>
+                            <span>
+                                <a target="_blank" href="https://www.facebook.com/" class="fonts-icons mdi mdi-facebook"></a>
+                                    <a target="_blank" href="https://twitter.com/" class="fonts-icons mdi mdi-twitter"></a>
+                                    <a target="_blank" href="https://www.instagram.com/" class="fonts-icons mdi mdi-instagram"></a>
+                                    <a target="_blank" href="https://soundcloud.com/" class="fonts-icons mdi mdi-soundcloud"></a>
+                                    <a target="_blank" href="https://www.youtube.com/" class="fonts-icons mdi mdi-youtube-play"></a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-wrapper">
+                        <form id="contact-form" novalidate>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name-input">Name</label>
+                                        <input type="text"
+                                               class="site-input name-input"
+                                               id="name-input"
+                                               placeholder="Your name"
+                                               required
+                                               data-validation-required-message="Invalid input">
+                                        <p class="help-block"></p>
+                                        <p class="help-block-success">done</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email-input">E-mail</label>
+                                        <input type="email"
+                                               class="site-input email-input"
+                                               id="email-input"
+                                               placeholder="Contact e-mail"
+                                               required
+                                               data-validation-email-message="Invalid input"
+                                               data-validation-required-message="Invalid input">
+                                        <p class="help-block"></p>
+                                        <p class="help-block-success">done</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="textarea">Message</label>
+                                        <textarea id="textarea"
+                                                  class="site-input textarea"
+                                                  placeholder="Project description"
+                                                  required
+                                                  data-validation-required-message="Invalid input"></textarea>
+                                        <p class="help-block"></p>
+                                        <p class="help-block-success">done</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="submit-holder">
+                                        <button class="yellow-btn" type="submit"><span class="mdi mdi-send"></span>Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright text-center">
+                    <p>Copyright 2017 Simon Ton.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Modal about me -->
+<div class="modal fade" id="about-me-modal" tabindex="-1" role="dialog" aria-labelledby="about-me-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="about-me">
+                    <div class="about-title">
+                        <h3>About me</h3>
+                    </div>
+                    <div class="opacity-box about-description">
+                        <p>I am a jazz musician located in Hartford, Connecticut. I currently work as a musician
+                            on parties, weddings, bar mitzvahs, trade shows and more. I am looking to take
+                            on more work and to help you improve your event.</p>
+                    </div>
+                </div>
+                <div class="about-me-info">
+                    <p class="info-row">
+                        <span class="span-title">Phone</span>
+                        <span class="opacity-box">
+                            <a href="tel:+1-203-324-5400">+1-203-324-5400</a>
+                        </span>
+                    </p>
+                    <p class="info-row">
+                        <span class="span-title">Email</span>
+                        <span class="opacity-box">
+                            <a href="mailto:Simon Toncrown92@gmail.com">Simon Toncrown92@gmail.com</a>
+                        </span>
+                    </p>
+                    <p class="info-row">
+                        <span class="span-title">Address</span>
+                        <span class="opacity-box">
+                            <a class="map-link" href="open-google-map">3113 Lochmere Avenue, Weymouth, MA, United States</a>
+                        </span>
+                    </p>
+                    <p class="info-row">
+                        <span class="span-title">Social</span>
+                        <span>
+                            <a target="_blank" href="https://www.facebook.com/" class="fonts-icons mdi mdi-facebook"></a>
+                                <a target="_blank" href="https://twitter.com/" class="fonts-icons mdi mdi-twitter"></a>
+                                <a target="_blank" href="https://www.instagram.com/" class="fonts-icons mdi mdi-instagram"></a>
+                                <a target="_blank" href="https://soundcloud.com/" class="fonts-icons mdi mdi-soundcloud"></a>
+                                <a target="_blank" href="https://www.youtube.com/" class="fonts-icons mdi mdi-youtube-play"></a>
+                        </span>
+                    </p>
+                </div>
+                <div class="modal-img">
+                    <img src="media/modal/img-1.jpg" alt="">
+                </div>
+                <div class="resume-box">
+                    <div class="resume-title">
+                        <h4>Experience</h4>
+                    </div>
+                    <div class="resume-info">
+                        <div class="resume-info-title">
+                            <h5>Freelance Musician @ AudioJungle</h5>
+                        </div>
+                        <div class="resume-info-desc opacity-box">
+                            <p>Creating music for Envato's media markt, partly work as a musician on parties,
+                                weddings, bar mitzvahs, trade shows and more.</p>
+                        </div>
+                        <div class="resume-date opacity-box">
+                            <p>May 2014 — present</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-box">
+                    <div class="resume-title">
+                        <h4>Education</h4>
+                    </div>
+                    <div class="resume-info">
+                        <div class="resume-info-title">
+                            <h5>Music Production and Engineering Course @ Google & Udacity</h5>
+                        </div>
+                        <div class="resume-info-desc opacity-box">
+                            <p>As a student majoring in music production and engineering (MP&E), I have learned
+                                about the creation and production of recordings of music and how to successfully
+                                complete recording projects that are typical of those found in contemporary
+                                professional recording and production environments.</p>
+                        </div>
+                        <div class="resume-date opacity-box">
+                            <p>April, 2015 — May, 2015</p>
+                        </div>
+                    </div>
+                    <div class="resume-info">
+                        <div class="resume-info-title">
+                            <h5>Jazz Composition @ Berklee College of Music</h5>
+                        </div>
+                        <div class="resume-info-desc opacity-box">
+                            <p>BSc (Hons) in Jazz Composition. Outstanding Academic Achievement Award.</p>
+                        </div>
+                        <div class="resume-date opacity-box">
+                            <p>January, 2005 — May, 2009</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-buttons">
+                    <a class="yellow-btn" href="#" data-dismiss="modal" aria-hidden="true"><span class="mdi mdi-undo-variant"></span>Back to main</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal about me -->
+
+<!-- Modal contact me -->
+<div class="modal fade" id="contact-me-modal" tabindex="-1" role="dialog" aria-labelledby="contact-me-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="about-me">
+                    <div class="about-title">
+                        <h3>Contact me</h3>
+                    </div>
+                    <div class="opacity-box about-description">
+                        <p>Are you organising event or building media project? I would love to help make it happen!
+                            Drop me a letter and start work right now! Just do it. I will not spam you
+                            on e-mail or something else.</p>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <form id="modal-form" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name-modal">Name</label>
+                                    <input type="text"
+                                           class="site-input name-input"
+                                           id="name-modal"
+                                           placeholder="Your name"
+                                           required
+                                           data-validation-required-message="Invalid input">
+                                    <p class="help-block"></p>
+                                    <p class="help-block-success">done</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email-modal">E-mail</label>
+                                    <input type="email"
+                                           class="site-input email-input"
+                                           id="email-modal"
+                                           placeholder="Contact e-mail"
+                                           required
+                                           data-validation-email-message="Invalid input"
+                                           data-validation-required-message="Invalid input">
+                                    <p class="help-block"></p>
+                                    <p class="help-block-success">done</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="textarea-modal">Message</label>
+                                    <textarea id="textarea-modal"
+                                              class="site-input textarea"
+                                              placeholder="Project description"
+                                              required
+                                              data-validation-required-message="Invalid input"></textarea>
+                                    <p class="help-block"></p>
+                                    <p class="help-block-success">done</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="modal-buttons">
+                                    <button class="yellow-btn" type="submit"><span class="mdi mdi-send"></span>Send message</button>
+                                    <a class="white-btn" href="#" data-dismiss="modal" aria-hidden="true"><span class="mdi mdi-undo-variant"></span>Back to main</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal contact me -->
+
+<!-- Modal send message -->
+<div class="modal fade" id="send-message-modal" tabindex="-1" role="dialog" aria-labelledby="send-message-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="about-me">
+                    <div class="about-title">
+                        <h3>Your message has been sent!</h3>
+                    </div>
+                    <div class="opacity-box about-description">
+                        <p>Thank you for your interest in my work. I'll contact you just in a few days.
+                            Stay tuned and see you soon, friend!</p>
+                    </div>
+                </div>
+                <div class="modal-buttons">
+                    <a class="yellow-btn" href="#" data-dismiss="modal" aria-hidden="true"><span class="mdi mdi-undo-variant"></span>Back to main</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal send message -->
+
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.placeholder.min.js"></script>
+
+<!--Smooth Scroll-->
+<script src="assets/smoothscroll-for-websites/SmoothScroll.js"></script>
+
+<!--owl slider-->
+<script src="   assets/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+
+<!--AudioJungle-->
+<script src="//d2mdw063ttlqtq.cloudfront.net/audioplayer/player.js"></script>
+
+<!--jqBootstrapValidation-->
+<script src="assets/contact/jqBootstrapValidation.js"></script>
+<script src="assets/contact/contact_me.js"></script>
+
+<!--THEME-->
+<script src="js/theme.js"></script>
+</body>
+</html>
