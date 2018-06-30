@@ -1,0 +1,25 @@
+#name-title {
+	font-size: 47px;
+}
+
+.description {
+	font-size: 15px;
+}
+
+.spacing-between {
+	margin-top: 30px;
+}
+
+#studio-pic {
+	padding: 0px;
+}
+
+#email-color {
+	color: #FFC200;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#email-color a:hover {
+	color: white;
+}

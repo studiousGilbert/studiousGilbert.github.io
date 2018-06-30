@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Ton</title>
+    <meta name="description" content="Simon Ton is.">
+    <meta name="author" content="Simon Ton">
+    <link rel="shortcut icon" href="images/studiopic.jpg">
     <link rel="stylesheet" type="text/css" href="css/master.css">
 
 </head>
@@ -20,7 +23,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Simon Ton</h2>
+                        <h3 id="name-title">Simon Ton</h3>
                     </div>
                 </div>
             </div>
@@ -38,8 +41,10 @@
                                     <span><span class="mdi mdi-soundcloud"></span>Soundcloud</span>
                                 </a>
                             </li>
-                            <br>
-                            <p>I am Simon Ton.</p>
+                            <div class="spacing-between"></div>
+                            <img src="images/studiopic.jpg" id="studio-pic" class="img-thumbnail">
+                            <div class="spacing-between"></div>
+                            <p class="description text-center">SIMON TON is a Berklee College of Music Alumni with studies in Contemporary Writing and Production. He has been composing for film and television since 2015, and has commissioned works for independent studios. His work has been featured in animations, advertisements, PSAs, and several VR and AR productions.</p>
                         </ul>
                     </div>
                 </div>
@@ -94,65 +99,11 @@
                         <p class="info-row">
                             <span class="span-title">Email</span>
                             <span class="opacity-box">
-                                <a href="mailto:simontonofficial@gmail.com">simontonofficial@gmail.com</a>
+                                <span id="email-color">
+                                    <a href="mailto:simontonofficial@gmail.com">simontonofficial@gmail.com</a>
+                                </span>
                             </span>
                         </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-wrapper">
-                        <form id="contact-form" novalidate>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name-input">Name</label>
-                                        <input type="text"
-                                               class="site-input name-input"
-                                               id="name-input"
-                                               placeholder="Your name"
-                                               required
-                                               data-validation-required-message="Invalid input">
-                                        <p class="help-block"></p>
-                                        <p class="help-block-success">done</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email-input">E-mail</label>
-                                        <input type="email"
-                                               class="site-input email-input"
-                                               id="email-input"
-                                               placeholder="Contact e-mail"
-                                               required
-                                               data-validation-email-message="Invalid input"
-                                               data-validation-required-message="Invalid input">
-                                        <p class="help-block"></p>
-                                        <p class="help-block-success">done</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="textarea">Message</label>
-                                        <textarea id="textarea"
-                                                  class="site-input textarea"
-                                                  placeholder="Project description"
-                                                  required
-                                                  data-validation-required-message="Invalid input"></textarea>
-                                        <p class="help-block"></p>
-                                        <p class="help-block-success">done</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="submit-holder">
-                                        <button class="yellow-btn" type="submit"><span class="mdi mdi-send"></span>Send message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -166,199 +117,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright text-center">
-                    <p>Copyright 2017 Simon Ton.</p>
+                    <p>Copyright © 2018 Simon Ton.</p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-
-
-<!-- Modal about me -->
-<div class="modal fade" id="about-me-modal" tabindex="-1" role="dialog" aria-labelledby="about-me-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>About me</h3>
-                    </div>
-                    <div class="opacity-box about-description">
-                        <p>I am a jazz musician located in Hartford, Connecticut. I currently work as a musician
-                            on parties, weddings, bar mitzvahs, trade shows and more. I am looking to take
-                            on more work and to help you improve your event.</p>
-                    </div>
-                </div>
-                <div class="about-me-info">
-                    <p class="info-row">
-                        <span class="span-title">Phone</span>
-                        <span class="opacity-box">
-                            <a href="tel:+1-203-324-5400">+1-203-324-5400</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Email</span>
-                        <span class="opacity-box">
-                            <a href="mailto:simontonofficial@gmail.com">simontonofficial@gmail.com</a>
-                        </span>
-                    </p>
-                </div>
-                <div class="modal-img">
-                    <img src="media/modal/img-1.jpg" alt="">
-                </div>
-                <div class="resume-box">
-                    <div class="resume-title">
-                        <h4>Experience</h4>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Freelance Musician @ AudioJungle</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Creating music for Envato's media markt, partly work as a musician on parties,
-                                weddings, bar mitzvahs, trade shows and more.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>May 2014 — present</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="resume-box">
-                    <div class="resume-title">
-                        <h4>Education</h4>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Music Production and Engineering Course @ Google & Udacity</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>As a student majoring in music production and engineering (MP&E), I have learned
-                                about the creation and production of recordings of music and how to successfully
-                                complete recording projects that are typical of those found in contemporary
-                                professional recording and production environments.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>April, 2015 — May, 2015</p>
-                        </div>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Jazz Composition @ Berklee College of Music</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>BSc (Hons) in Jazz Composition. Outstanding Academic Achievement Award.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>January, 2005 — May, 2009</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-buttons">
-                    <a class="yellow-btn" href="#" data-dismiss="modal" aria-hidden="true"><span class="mdi mdi-undo-variant"></span>Back to main</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal about me -->
-
-<!-- Modal contact me -->
-<div class="modal fade" id="contact-me-modal" tabindex="-1" role="dialog" aria-labelledby="contact-me-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>Contact me</h3>
-                    </div>
-                    <div class="opacity-box about-description">
-                        <p>Are you looking for high quality, professional original music and sound for your project? 
-                            Let me know, and we can make it happen.</p>
-                    </div>
-                </div>
-                <div class="form-wrapper">
-                    <form id="modal-form" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name-modal">Name</label>
-                                    <input type="text"
-                                           class="site-input name-input"
-                                           id="name-modal"
-                                           placeholder="Your name"
-                                           required
-                                           data-validation-required-message="Invalid input">
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email-modal">E-mail</label>
-                                    <input type="email"
-                                           class="site-input email-input"
-                                           id="email-modal"
-                                           placeholder="Contact e-mail"
-                                           required
-                                           data-validation-email-message="Invalid input"
-                                           data-validation-required-message="Invalid input">
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="textarea-modal">Message</label>
-                                    <textarea id="textarea-modal"
-                                              class="site-input textarea"
-                                              placeholder="Project description"
-                                              required
-                                              data-validation-required-message="Invalid input"></textarea>
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="modal-buttons">
-                                    <button class="yellow-btn" type="submit"><span class="mdi mdi-send"></span>Send message</button>
-                                    <a class="white-btn" href="#" data-dismiss="modal" aria-hidden="true"><span class="mdi mdi-undo-variant"></span>Back to main</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal contact me -->
-
-<!-- Modal send message -->
-<div class="modal fade" id="send-message-modal" tabindex="-1" role="dialog" aria-labelledby="send-message-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>Your message has been sent!</h3>
-                    </div>
-                    <div class="opacity-box about-description">
-                        <p>Thank you for your interest. I'll contact you soon!
-                    </p>
-                    </div>
-                </div>
-                <div class="modal-buttons">
-                    <a class="yellow-btn" href="#" data-dismiss="modal" aria-hidden="true"><span class="mdi mdi-undo-variant"></span>Back to main</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal send message -->
 
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
