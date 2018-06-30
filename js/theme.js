@@ -78,6 +78,7 @@ $(document).ready(function () {
 
 
     //init audiojungle
+    /*
     function playerWidth() {
         var playerWidth = $('.tab-content').width();
         if(playerWidth < 380){
@@ -109,6 +110,7 @@ $(document).ready(function () {
             source: "random-new-files:audiojungle" // playlist source
         });
     }
+    */
 
 
     //open google map in new window
@@ -196,6 +198,14 @@ $(document).ready(function () {
             target.removeClass('init-slider');
         }
     }
+    //Placed the slider twice to initiate it in the beginning.
+    $('.tab-content .tab-pane').each(function () {
+        if(!($(this).hasClass('init-slider'))){
+            $(this).addClass('init-slider');
+        }else{
+            initVideoSlider($(this));
+        }
+    });
     $('.tabs-buttons ul li a').on('click', function () {
         var _this = $(this);
         setTimeout(function () {
@@ -213,7 +223,7 @@ $(document).ready(function () {
             var videoLink = $(this).find('a.owl-video').attr('href');
             $(this).parents('.tab-pane#youtube').find('.video-box iframe').attr('src', videoLink);
 
-            $(this).find('.owl-video-tn').css('background-image', 'url(//img.youtube.com/vi/' + videoCode + '/hqdefault.jpg)');
+            $(this).find('.owl-video-tn').css('background-image', 'url(https://img.youtube.com/vi/' + videoCode + '/hqdefault.jpg)');
             $(this).find('.owl-video').attr('href', mainVideoLink);
         }else if($(this).parents('.tab-pane').attr('id') == 'vimeo'){
             var mainVideoLink = $(this).parents('.owl-carousel').prev('.video-box').find('iframe').attr('src');
