@@ -4,6 +4,7 @@
 
 .description {
 	font-size: 15px;
+	white-space: pre-wrap;
 }
 
 .spacing-between {
@@ -26,4 +27,16 @@
 
 #email-color a:hover {
 	color: white;
+}
+
+@media only screen and (max-width: 991px) {
+	.a-little-top-margin {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 455px) {
+	#email-color {
+		font-size: 25px;
+	}
 }
